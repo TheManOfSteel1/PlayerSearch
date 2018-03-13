@@ -19,13 +19,15 @@ background: url('public/Images/Sports.jpg');
 
                <form method="POST" action="/get_player">
                    @csrf
-                   <input name="searchArtist" type="text" id="query" value="" class="form-control" placeholder="Type your Star Player" />
+                   <input name="searchPlayer" type="text" id="query" value="" class="form-control" placeholder="Type your Star Player" />
                    <button type="submit" id="search" class="btn btn-lg" value="">Search</button placeholder="Type your star player">
-                   <div id="results"></div>
                </form>
            </div>
        </div>
    </div>
+   <div id="results"></div>
+
+   <img src="Images/Stadium.jpg" class="jumbotron jumbotron-fluid" width="100%"/>
 </section>
 
 

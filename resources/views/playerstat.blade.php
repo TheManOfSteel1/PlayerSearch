@@ -10,7 +10,7 @@
 <section id="top" class="jumbotron jumbotron-fluid @if (empty($response)) fullscreen @endif">
 
 {{-- row 1 --}}
-    <div class="row text-center">
+    <div class="row text-center" id="center">
         <div class="col-4">
 
             <div class="card mb-3">
@@ -27,7 +27,7 @@
     </div>
 
 {{-- row 2 --}}
-    <div class="row text-center">
+    <div class="row text-center mt-5">
         <div class="col-4">
             <div class="card mb-3">
                 <div class="card-body">

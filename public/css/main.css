@@ -167,3 +167,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CC041E', end
 	flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
 }
+
+
+#center {
+    margin-left: 42%;
+    width: 50%;
+
+}
