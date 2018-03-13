@@ -1,0 +1,169 @@
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #00C457 !important;
+}
+.jumbotron-fluid {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#CC041E+0,000000+100 */
+background: #CC041E; /* Old browsers */
+background: -moz-linear-gradient(top, #CC041E 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #CC041E 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #CC041E 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CC041E', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+.header-text {
+  color: white;
+}
+
+.header-p {
+  color: white;
+}
+
+.btn {
+  background-color: #00C457 !important;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white !important;
+  color: #00C457 !important;
+  border-color: solid 1px #00C457 !important;
+}
+
+#search-headings {
+  padding: 10px;
+}
+
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+
+.card {
+  border: 0;
+}
+
+.event-info {
+  height: 500px;
+  overflow: auto;
+  position: relative;
+}
+
+.picSize {
+    width: 50px;
+    height: 50px;
+}
+
+.disc-info {
+  height: 300px;
+  width: 750px;
+  overflow: auto;
+}
+
+#myFooter {
+	background-color: #000000;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin: 10px;
+	color: #ccc;
+}
+
+/* #myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+} */
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+#myFooter .instagram:hover {
+	color: #A806AC;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 25px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}

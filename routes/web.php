@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main');
+});
+
+
+Route::get('/playerstat', function () {
+    return view('playerstat');
+    return redirect()->route('view.playerstat');
+});
+
+
+Route::get('/about', function () {
+    return view('about');
 });
