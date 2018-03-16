@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-<a href="playerstat.php"
+
         <title>@yield('title')</title>
 
         <!-- Styles -->
@@ -26,21 +26,19 @@
     <body data-spy="scroll" data-target="#navScrollspy">
       <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
         <div class="container">
-          <a href="playerstat" class="navbar-brand">Star Player Search</a>
-          <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+          <a href="/" class="navbar-brand">NFL All Star QB Search</a>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul id="navScrollspy"class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="about" class="nav-link">ABOUT US</a>
+              <a href="/about" class="nav-link">ABOUT</a>
             </li>
           </ul>
         </div>
         </div>
       </nav>
 
-      <div class="container-fluid pt-3 px-0">
+      <div class="container-fluid px-0">
           @yield('content')
       </div>
 
@@ -51,7 +49,7 @@
 <footer id="myFooter">
     <div class="container">
         <div class="footer-copyright">
-            <p>© Star Player Search 2018 Subject to copyright </p>
+            <p class="footer"> © Star Player Search 2018 Subject to copyright </p>
         </div>
     </footer>
 </center>

@@ -25,3 +25,5 @@ Route::get('/playerstat', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::post('/get_player', 'ApiPeopleSearchController@searchPlayer'); //input the method name, "api controller name plus function name created in the api controller"
