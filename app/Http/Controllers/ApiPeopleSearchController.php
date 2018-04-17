@@ -9,7 +9,7 @@ class ApiPeopleSearchController extends Controller
 
 
 // this is where the api code goes
-    public function searchPlayer(Request $request)  //request request is to communitcate with link
+    public function searchQuestion(Request $request)  //request request is to communitcate with link
     {
         $query= $request->searchPlayer; //this variable was created to corrolate with the input name in the main.blade and goes in the link below in the end.
 
